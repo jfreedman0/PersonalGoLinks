@@ -12,6 +12,6 @@ docker run -p 5000:5000 -d --restart=always localhost/personalgolinks_web
 
 ## New steps using compose
 
-podman-compse up --build -d --force-recreate
+podman-compose up --build -d --force-recreate
 
 docker system prune
